@@ -1,0 +1,172 @@
+
+.navbar {
+   display: flex;
+   align-items: center;
+   background-color: #9fabe1
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+   display: inline-block;
+   list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+nav li :hover{
+    color: #fff;
+    text-decoration:underline;
+}
+
+
+
+
+p{
+    color: black;
+}
+.container{
+    width: 100%;
+    height:600px;
+    margin-top:  5px;
+    background-image: linear-gradient(rgba(182, 174, 193, 0.6) ,rgba(149, 143, 158, 0.6)), url(image/daylight-environment-forest-459225.jpg);
+    background-size : cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5;
+    
+}
+.search-bar{
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(149, 143, 158, 0.7);
+    border-radius: 60px;
+    padding:30px,40px;
+    backdrop-filter: blur(2px) saturate(150%);
+}
+.search-bar input{
+    background:transparent;
+    flex :1;
+    padding: 24px,200px;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+    margin-left: 25px;
+
+}
+::placeholder{
+    color: rgb(57, 57, 57);
+}
+
+.search-bar button img{
+   width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    margin-right: 0px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.cards{
+    margin:0 auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 50px;
+    font-family: sans-serif;
+    margin: 7px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+    background-color: aliceblue;
+}
+
+.card{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+}
+
+.card-image{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+
+}
+
+.cardcontent{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    
+}
+
+.cardcontent > p{
+   margin-top: 0px;
+}
+.card img:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #9fabe1;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+ .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer p {
+    margin: 0;
+  }
+  
+  
+ .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+   .footer-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+    .footer-links li:first-child {
+    margin-left: 0;
+  }
+  
+ .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links li a:hover {
+    text-decoration: underline;
+  } 
