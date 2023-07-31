@@ -35,7 +35,7 @@ p{
     width: 100%;
     height:600px;
     margin-top:  5px;
-    background-image: linear-gradient(rgba(182, 174, 193, 0.6) ,rgba(149, 143, 158, 0.6)), url(image/daylight-environment-forest-459225.jpg);
+    background-image: linear-gradient(rgba(105, 88, 148, 0.3) ,rgba(88, 80, 159, 0.3)), url(https://www.pixelstalk.net/wp-content/uploads/2016/07/3840x2160-Images-Free-Download.jpg);
     background-size : cover;
     background-position: center;
     display: flex;
@@ -53,7 +53,7 @@ p{
     background-color: rgba(149, 143, 158, 0.7);
     border-radius: 60px;
     padding:30px,40px;
-    backdrop-filter: blur(2px) saturate(150%);
+    backdrop-filter: blur(3px) saturate(150%);
 }
 .search-bar input{
     background:transparent;
@@ -92,19 +92,20 @@ p{
     margin: 7px;
     padding-bottom: 70px;
     padding-top: 40px;
-    background-color: aliceblue;
+   
 }
 
 .card{
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .card-image{
     width: 100%;
+    height: 300px;
     display: block;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
 
 }
 
@@ -113,7 +114,7 @@ p{
     font-size: 0.9em;
     padding: 15px;
     background-color: rgb(230, 230, 230);
-    border-radius: 20px;
+    border-bottom-right-radius: 20px;
     
 }
 
@@ -170,3 +171,4 @@ p{
   .footer-links li a:hover {
     text-decoration: underline;
   } 
+
